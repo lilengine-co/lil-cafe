@@ -4,15 +4,12 @@
     <div class="block-space">
       <h1 class="text-center text-5xl">{{ pageTitle }}</h1>
     </div>
-    <le-loading v-if="loading" />
-    <div v-else>
-      <le-collection :collection="collection" showTitle="false" />
-    </div>
+    <le-category :items="takeAway" />
   </div>
 </template>
 
 <script>
-import {mapGetters, mapActions} from "vuex"
+import {mapGetters} from "vuex"
 
 export default {
   head() {
@@ -31,19 +28,13 @@ export default {
       pageTitle: "Takeaway Menu",
     }
   ),
-  methods: {
-    // Get all collections to display collections block, and get home collection to displaying the home products
-    ...mapActions([
-      'fetchCollection'
-    ])
-  },
   computed: mapGetters([
     'loading',
-    'collection'
+    'takeAway'
   ]),
   async mounted () {
-    let collectionId = 'Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzIzNTYwMTA2ODE5NQ==';
-    this.fetchCollection(collectionId);
+    console.log("this.takeAway");
+    console.log(this.takeAway);
   },
 }
 </script>

@@ -10,15 +10,69 @@ export const state = () => ({
   totalCartItems: 0,
   searchResults: [],
   locations: [],
+  catelogs: [],
+  catering: [],
+  takeAway: [],
 });
 
 export const actions = {
   async nuxtServerInit ({ commit }, { app }) {
     const locations = await app.$squareClient.locationsApi.listLocations();
-    console.log("Location Square");
-    console.log(locations.result);
-    commit('setLocations', locations.result);
+    commit('setLocations', locations.result.locations);
+
+    const catelogs = await app.$squareClient.catalogApi.searchCatalogObjects({
+      objectTypes: [
+        'CATEGORY'
+      ],
+      includeDeletedObjects: false,
+      includeRelatedObjects: false
+    });
+    commit('setCatelogs', catelogs.result.objects);
+
+    // Get catering ID "FQCJQUH5KHF4XMJ7LEPMB342"
+    const catering = await app.$squareClient.catalogApi.searchCatalogItems({
+      categoryIds: [
+        'FQCJQUH5KHF4XMJ7LEPMB342'
+      ],
+      enabledLocationIds: [
+        'LCAKHXCCVB9CG'
+      ],
+      productTypes: [
+        'REGULAR'
+      ]
+    });
+    commit('setCatering', catering.result.items);
+
+    // Get takeAway ID "JHY4TCXIBHE7ENUPSWAKREAK"
+    const takeAway = await app.$squareClient.catalogApi.searchCatalogItems({
+      categoryIds: [
+        'JHY4TCXIBHE7ENUPSWAKREAK'
+      ],
+      enabledLocationIds: [
+        'LCAKHXCCVB9CG'
+      ],
+      productTypes: [
+        'REGULAR'
+      ]
+    });
+    commit('setTakeAway', takeAway.result.items);
   },
+
+  
+  // async fetchSquare ({ commit }) {
+  //   const locations = await this.$squareClient.locationsApi.listLocations();
+  //   commit('setLocations', locations.result.locations);
+
+  //   const catelogs = await this.$squareClient.catalogApi.searchCatalogObjects({
+  //     objectTypes: [
+  //       'CATEGORY'
+  //     ],
+  //     includeDeletedObjects: false,
+  //     includeRelatedObjects: false,
+  //     limit: 5
+  //   });
+  //   commit('setCatelogs', catelogs.result.objects);
+  // },
   async fetchAllCollections ({ commit }) {
     commit('setLoading', true);
     this.$shopify.collection.fetchAllWithProducts().then(collections => {
@@ -303,7 +357,11 @@ export const getters = {
   loading: (state) => state.loading,
   loadingSearch: (state) => state.loadingSearch,
   searchResults: (state) => state.searchResults,
-  locations: (state) => state.locations
+  locations: (state) => state.locations,
+  catelogs: (state) => state.catelogs,
+  catering: (state) => state.catering,
+  takeAway: (state) => state.takeAway,
+  
 }
 
 export const mutations = {
@@ -322,4 +380,7 @@ export const mutations = {
   },
   setSearchResults: (state, searchResults) => (state.searchResults = searchResults),
   setLocations: (state, locations) => (state.locations = locations),
+  setCatelogs: (state, catelogs) => (state.catelogs = catelogs),
+  setCatering: (state, catering) => (state.catering = catering),
+  setTakeAway: (state, takeAway) => (state.takeAway = takeAway),
 }

@@ -4,10 +4,7 @@
     <div class="block-space">
       <h1 class="text-center text-5xl">{{ pageTitle }}</h1>
     </div>
-    <le-loading v-if="loading" />
-    <div v-else>
-      <le-collection :collection="collection" showTitle="false" />
-    </div>
+    <le-category :items="catering" />
   </div>
 </template>
 
@@ -31,19 +28,13 @@ export default {
       pageTitle: "Catering",
     }
   ),
-  methods: {
-    // Get all collections to display collections block, and get home collection to displaying the home products
-    ...mapActions([
-      'fetchCollection'
-    ])
-  },
   computed: mapGetters([
     'loading',
-    'collection'
+    'catering'
   ]),
   async mounted () {
-    let collectionId = 'Z2lkOi8vc2hvcGlmeS9Db2xsZWN0aW9uLzIzNTU5OTAwMzgxMQ==';
-    this.fetchCollection(collectionId);
+    console.log("this.catering");
+    console.log(this.catering);
   },
 }
 </script>
