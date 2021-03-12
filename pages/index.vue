@@ -11,8 +11,6 @@
 </template>
 
 <script>
-import {mapGetters, mapActions} from "vuex"
-
 export default {
   head() {
     return {
@@ -29,17 +27,24 @@ export default {
     {
       menus: [
         {
-          cover: '/images/le-pickup.jpg',
-          heading: 'Pickup',
+          cover: '/images/le-cafe.jpg',
+          heading: 'Order a coffee',
           link: {
-            uri: '/pickup'
+            uri: 'https://lil-cafe.square.site/?location=11eb7c15bf5521048122ac1f6bbba82c#2'
           }
         },
         {
-          cover: '/images/le-cafe.jpg',
-          heading: 'Cafe',
+          cover: '/images/le-pickup.jpg',
+          heading: 'Takeaway',
           link: {
-            uri: '/cafe'
+            uri: 'https://lil-cafe.square.site/?location=11eb7c15bf5521048122ac1f6bbba82c#5'
+          }
+        },
+        {
+          cover: '/images/le-drink.jpg',
+          heading: 'Dine in',
+          link: {
+            uri: '/dinein'
           }
         },
         {
@@ -47,13 +52,6 @@ export default {
           heading: 'Catering',
           link: {
             uri: '/catering'
-          }
-        },
-        {
-          cover: '/images/le-drink.jpg',
-          heading: 'Hamper',
-          link: {
-            uri: '/coming'
           }
         },
         {

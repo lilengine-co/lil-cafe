@@ -9,8 +9,11 @@
       <h3 class="card__title block__title">{{ card.heading }}</h3>
       <div class="card__content markup__html" v-html="card.content"></div>
     </div>
-    <NuxtLink v-if="card.link" class="absolute inset-0" :to="card.link.uri">
-    </NuxtLink>
+    <template v-if="card.link">
+      <a class="absolute inset-0" v-if="card.link.uri.includes('http')" :href="card.link.uri" target="_blank"></a>
+      <NuxtLink v-else class="absolute inset-0" :to="card.link.uri">
+      </NuxtLink> 
+    </template>
   </div>
 </template>
 

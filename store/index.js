@@ -13,6 +13,8 @@ export const state = () => ({
   catelogs: [],
   catering: [],
   takeAway: [],
+  breakfast: [],
+  lunch: [],
 });
 
 export const actions = {
@@ -30,6 +32,20 @@ export const actions = {
     commit('setCatelogs', catelogs.result.objects);
 
     // Get catering ID "FQCJQUH5KHF4XMJ7LEPMB342"
+    // const catering = await app.$squareClient.catalogApi.searchCatalogObjects({
+    //   objectTypes: [
+    //     'ITEM'
+    //   ],
+    //   includeDeletedObjects: false,
+    //   includeRelatedObjects: false,
+    //   query: {
+    //     exactQuery: {
+    //       attributeName: 'category_id',
+    //       attributeValue: 'FQCJQUH5KHF4XMJ7LEPMB342'
+    //     }
+    //   }
+    // });
+
     const catering = await app.$squareClient.catalogApi.searchCatalogItems({
       categoryIds: [
         'FQCJQUH5KHF4XMJ7LEPMB342'
@@ -56,23 +72,37 @@ export const actions = {
       ]
     });
     commit('setTakeAway', takeAway.result.items);
+    
+    // Get breakfast ID "ZU3RVVQL3RRB2UMCXJ74C4RI"
+    const breakfast = await app.$squareClient.catalogApi.searchCatalogItems({
+      categoryIds: [
+        'ZU3RVVQL3RRB2UMCXJ74C4RI'
+      ],
+      enabledLocationIds: [
+        'LCAKHXCCVB9CG'
+      ],
+      productTypes: [
+        'REGULAR'
+      ]
+    });
+    commit('setBreakfast', breakfast.result.items);
+    
+    // Get lunch ID "WH626USJMAQBJAUVWEQXKWIV"
+    const lunch = await app.$squareClient.catalogApi.searchCatalogItems({
+      categoryIds: [
+        'WH626USJMAQBJAUVWEQXKWIV'
+      ],
+      enabledLocationIds: [
+        'LCAKHXCCVB9CG'
+      ],
+      productTypes: [
+        'REGULAR'
+      ]
+    });
+    commit('setLunch', lunch.result.items);
+    
   },
 
-  
-  // async fetchSquare ({ commit }) {
-  //   const locations = await this.$squareClient.locationsApi.listLocations();
-  //   commit('setLocations', locations.result.locations);
-
-  //   const catelogs = await this.$squareClient.catalogApi.searchCatalogObjects({
-  //     objectTypes: [
-  //       'CATEGORY'
-  //     ],
-  //     includeDeletedObjects: false,
-  //     includeRelatedObjects: false,
-  //     limit: 5
-  //   });
-  //   commit('setCatelogs', catelogs.result.objects);
-  // },
   async fetchAllCollections ({ commit }) {
     commit('setLoading', true);
     this.$shopify.collection.fetchAllWithProducts().then(collections => {
@@ -361,6 +391,8 @@ export const getters = {
   catelogs: (state) => state.catelogs,
   catering: (state) => state.catering,
   takeAway: (state) => state.takeAway,
+  breakfast: (state) => state.breakfast,
+  lunch: (state) => state.lunch,
   
 }
 
@@ -383,4 +415,6 @@ export const mutations = {
   setCatelogs: (state, catelogs) => (state.catelogs = catelogs),
   setCatering: (state, catering) => (state.catering = catering),
   setTakeAway: (state, takeAway) => (state.takeAway = takeAway),
+  setBreakfast: (state, breakfast) => (state.breakfast = breakfast),
+  setLunch: (state, lunch) => (state.lunch = lunch),
 }
