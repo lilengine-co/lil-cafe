@@ -8,7 +8,7 @@
           </span>
           <template v-for="variation in item.itemData.variations">
             <span v-if="variation.itemVariationData.priceMoney" class="text-right opacity-70">
-              ${{ variation.itemVariationData.priceMoney.amount }}
+              {{ currencyFormat(variation.itemVariationData.priceMoney.amount) }}
             </span>
           </template>
         </a>
@@ -19,7 +19,18 @@
 
 <script>
 export default {
-  props: ['items']
+  props: ['items'],
+  methods: {
+    currencyFormat(value) {
+      var formatter = new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD',
+        minimumFractionDigits: 2
+      });
+      return formatter.format(value/100);
+    }
+  }
+
 }
 </script>
 <style lang="scss">
