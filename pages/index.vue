@@ -27,10 +27,13 @@ export default {
     {
       menus: [
         {
-          cover: '/images/le-cafe.jpg',
-          heading: 'Order a coffee',
+          cover: '/images/cafe-item.jpg'
+        },
+        {
+          cover: '/images/le-drink.jpg',
+          heading: 'Dine in',
           link: {
-            uri: 'https://lil-cafe.square.site/?location=11eb7c15bf5521048122ac1f6bbba82c#2'
+            uri: '/dinein'
           }
         },
         {
@@ -38,13 +41,6 @@ export default {
           heading: 'Takeaway',
           link: {
             uri: 'https://lil-cafe.square.site/?location=11eb7c15bf5521048122ac1f6bbba82c#5'
-          }
-        },
-        {
-          cover: '/images/le-drink.jpg',
-          heading: 'Dine in',
-          link: {
-            uri: '/dinein'
           }
         },
         {

@@ -13,11 +13,7 @@
               <h2 class="f-block__title text-2xl mb-2">Café Opening Hours</h2>
               <div class="grid sm:grid-cols-2 gap-4">
                 <div>
-                  <h3>Mon - Tue</h3>
-                  <span class="font-light">Closed</span>
-                </div>
-                <div>
-                  <h3>Thurs - Sun</h3>
+                  <h3>Monday - Saturday</h3>
                   <span class="font-light">7:30am - 4pm</span>
                 </div>
               </div>
