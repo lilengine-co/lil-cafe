@@ -27,18 +27,15 @@ export default {
     {
       menus: [
         {
-          cover: '/images/cafe-item.jpg'
-        },
-        {
-          cover: '/images/le-drink.jpg',
-          heading: 'Dine in',
+          cover: '/images/cafe-item.jpg',
+          heading: 'All day dining',
           link: {
-            uri: '/dinein'
+            uri: '/catering'
           }
         },
         {
           cover: '/images/le-pickup.jpg',
-          heading: 'Takeaway',
+          heading: 'Online Ordering',
           link: {
             uri: 'https://lil-cafe.square.site/?location=11eb7c15bf5521048122ac1f6bbba82c#5'
           }
@@ -48,20 +45,6 @@ export default {
           heading: 'Catering',
           link: {
             uri: '/catering'
-          }
-        },
-        {
-          cover: '/images/le-venue.jpg',
-          heading: 'Venue',
-          link: {
-            uri: '/coming'
-          }
-        },
-        {
-          cover: '/images/le-pantry.jpg',
-          heading: 'Pantry',
-          link: {
-            uri: '/coming'
           }
         },
       ],
