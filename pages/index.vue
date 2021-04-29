@@ -41,10 +41,10 @@ export default {
           }
         },
         {
-          cover: '/images/le-drink.jpg',
-          heading: 'Catering',
+          cover: '/images/le-venue.jpg',
+          heading: 'Venue',
           link: {
-            uri: '/catering'
+            uri: '/coming'
           }
         },
       ],
