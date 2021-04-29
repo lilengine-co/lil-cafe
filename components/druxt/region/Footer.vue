@@ -31,7 +31,7 @@
           <div>
             <ul class="flex space-x-4">
               <li>
-                <a href="https://www.instagram.com/plumbontennant/?hl=en" class="hover:text-yellow-700 transition-all duration-500">
+                <a href="https://www.instagram.com/plumbontennant/?hl=en" target="_blank"  class="hover:text-yellow-700 transition-all duration-500">
                   <font-awesome-icon :icon="['fab', 'instagram']" style="font-size: 30px"/>
                 </a>
               </li>
