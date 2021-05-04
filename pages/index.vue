@@ -44,7 +44,7 @@ export default {
           cover: '/images/le-venue.jpg',
           heading: 'Venue',
           link: {
-            uri: '/coming'
+            uri: '/venue'
           }
         },
       ],
