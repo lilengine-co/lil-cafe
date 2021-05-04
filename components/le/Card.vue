@@ -6,7 +6,7 @@
       <le-lightbox :images="card.images" />
     </div>
     <template v-if="card.link">
-      <a class="absolute group-hover:opacity-0 bg-black opacity-50 inset-0 transition duration-150 ease-in-out z-59" v-if="card.link.uri.includes('http')" :href="card.link.uri" target="_blank"></a>
+      <a class="absolute group-hover:opacity-0 bg-black opacity-50 inset-0 transition duration-150 ease-in-out z-59" v-if="card.link.uri.includes('http') || card.link.uri.includes('files')" :href="card.link.uri" target="_blank"></a>
       <NuxtLink v-else class="absolute group-hover:opacity-0 bg-black opacity-50 inset-0 transition duration-150 ease-in-out z-59" :to="card.link.uri">
       </NuxtLink> 
     </template>

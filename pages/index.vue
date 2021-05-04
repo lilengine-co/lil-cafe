@@ -30,7 +30,7 @@ export default {
           cover: '/images/cafe-item.jpg',
           heading: 'All day dining',
           link: {
-            uri: '/catering'
+            uri: '/files/Plumb-menu-weekday.pdf'
           }
         },
         {
