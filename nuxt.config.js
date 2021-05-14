@@ -62,9 +62,14 @@ export default {
     'druxt-site',
     '@nuxtjs/style-resources',
     'nuxt-shopify',
-    '@nuxtjs/svg'
+    '@nuxtjs/svg',
+    '@nuxtjs/axios'
   ],
 
+  axios: {
+    baseURL: '/'
+  },
+  
   druxt: {
     baseUrl: process.env.BASE_URL
   },

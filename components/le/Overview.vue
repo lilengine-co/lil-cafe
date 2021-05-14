@@ -67,7 +67,7 @@
         <font-awesome-icon icon="long-arrow-alt-left" style="font-size: 15px" />
         Back
       </span>
-      <button @click="submitOverview" class="button disabled:opacity-50">
+      <button @click="sendMail" class="button disabled:opacity-50">
         <font-awesome-icon icon="paper-plane" style="font-size: 15px" />
         Submit
       </button>
@@ -79,18 +79,58 @@
 export default {
   data() {
     return {
+      messages: [],
+      name: this.detail.firstName + " " + this.detail.lastName,
+      email: this.detail.email,
+      html: "Dear manager" + "," + "<br>" +
+        "We have new booking. Please check bellow:" + "<br>" +
+        "First Name: " + this.detail.firstName + "<br>" +
+        "Last Name: " + this.detail.lastName + "<br>" +
+        "Company: " + this.detail.companyName + "<br>" +
+        "Mobile: " + this.detail.mobile + "<br>" +
+        "Email: " + this.detail.email + "<br>" +
+        "Date: " + this.booking.date.toLocaleDateString("au-AU") + "<br>" +
+        "Time: " + this.booking.time + "<br>" +
+        "How many people: " + this.booking.persion + "<br>" +
+        "Place: " + this.booking.section,
+      htmlUser: "Hi " + this.detail.firstName + "," + "<br>" +
+      "Thanks For your booking, Please check the booking detail bellow:" + "<br>" +
+      "First Name: " + this.detail.firstName + "<br>" +
+      "Last Name: " + this.detail.lastName + "<br>" +
+      "Company: " + this.detail.companyName + "<br>" +
+      "Mobile: " + this.detail.mobile + "<br>" +
+      "Email: " + this.detail.email + "<br>" +
+      "Date: " + this.booking.date.toLocaleDateString("au-AU") + "<br>" +
+      "Time: " + this.booking.time + "<br>" +
+      "How many people: " + this.booking.persion + "<br>" +
+      "Place: " + this.booking.section
     };
   },
   props: ['booking', 'detail'],
   computed: {
   },
   methods: {
-    submitOverview() {
+    sendMail () {
       let overview = {
         ...this.booking,
         ...this.detail
       };
       this.$emit("overview-submit", overview);
+      this.messages = []
+      this.triggerSendMessageFunction()
+    },
+    async triggerSendMessageFunction () {
+      try {
+        const response = await this.$axios.$post('/.netlify/functions/send-contact-email', {
+          user: this.name,
+          email: this.email,
+          subject: 'Booking Table Information',
+          html: this.html,
+          htmlUser: this.htmlUser
+        })
+      } catch (error) {
+        this.messages.push({ type: 'error', text: 'errror function' })
+      }
     },
     backToDetail() {
       this.$emit("overview-submit", false);
