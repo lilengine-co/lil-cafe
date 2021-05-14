@@ -16,7 +16,7 @@ exports.handler = function(event, context, callback) {
     // Sent to admin email
     var message = {
         from: bodyJSON.user,
-        to: "tienbienit1992@gmail.com",
+        to: process.env.MAIL_TO,
         subject: bodyJSON.subject,
         html: bodyJSON.html
     };
