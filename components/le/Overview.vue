@@ -79,7 +79,6 @@
 export default {
   data() {
     return {
-      messages: [],
       name: this.detail.firstName + " " + this.detail.lastName,
       email: this.detail.email,
       html: "Dear manager" + "," + "<br>" +
@@ -116,20 +115,26 @@ export default {
         ...this.detail
       };
       this.$emit("overview-submit", overview);
-      this.messages = []
-      this.triggerSendMessageFunction()
+      this.sendEmailData()
     },
-    async triggerSendMessageFunction () {
+    async sendEmailData() {
+      const data = {
+        user: this.name,
+        email: this.email,
+        subject: 'Booking Table Information',
+        html: this.html,
+        htmlUser: this.htmlUser
+      }
+
       try {
-        const response = await this.$axios.$post('/.netlify/functions/send-contact-email', {
-          user: this.name,
-          email: this.email,
-          subject: 'Booking Table Information',
-          html: this.html,
-          htmlUser: this.htmlUser
-        })
-      } catch (error) {
-        this.messages.push({ type: 'error', text: 'errror function' })
+        let a = await fetch("/.netlify/functions/send-contact-email", {
+        method: "POST",
+        body: JSON.stringify(data),
+      } )
+        console.error(a);
+      } catch (e) {
+        console.error(e)
+        alert('Error:  Your message could not be sent')
       }
     },
     backToDetail() {

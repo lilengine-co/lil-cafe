@@ -3,4 +3,5 @@
 
 [build]
   command = "npm run deploy"
+  publish = "dist"
   functions = "functions"

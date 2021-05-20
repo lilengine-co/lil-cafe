@@ -1,58 +1,37 @@
-const nodemailer = require('nodemailer');
+const sgMail = require('@sendgrid/mail');
+sgMail.setApiKey(process.env.SENDGRID_API);
 
-exports.handler = function(event, context, callback) {
-    let transporter = nodemailer.createTransport({
-        host: 'smtp.gmail.com',
-        port: 465,
-        secure: true,
-        auth: {
-          user: 'tienbienit1992@gmail.com',
-          pass: 'jfpbblcwodzwjsfp'
-        },
-    });
-    
-    const bodyJSON = JSON.parse(event.body);
+exports.handler =  async (event, context, callback) => {
+  const data = JSON.parse(event.body)
+  const { email, subject, user, html, htmlUser } = data;
+  
+  // Send email to Admin
+  const send_to_admin = {
+    to: process.env.ADMIN_EMAIL,
+    from: process.env.SENDGRID_EMAIL,
+    subject: subject ? subject : 'Booking Table Information',
+    html: html,
+  };
 
-    // Sent to admin email
-    var message = {
-        from: bodyJSON.user,
-        to: process.env.MAIL_TO,
-        subject: bodyJSON.subject,
-        html: bodyJSON.html
-    };
+  // Send email to User
+  const send_to_user = {
+    to: email,
+    from: process.env.SENDGRID_EMAIL,
+    subject: subject ? subject : 'Booking Table Information',
+    html: htmlUser,
+  };
 
-    transporter.sendMail(message, function(error, info) {
-    	if (error) {
-    		callback(error);
-    	} else {
-    		callback(null, {
-			    statusCode: 200,
-			    body: "Ok"
-	    	});
-    	}
-    });
-
-    // Sent to user email
-    var messageToUser = {
-        from: "Lil-cafe Manager",
-        to: bodyJSON.email,
-        subject: bodyJSON.subject,
-        html: bodyJSON.htmlUser
-    };
-    
-    transporter.sendMail(messageToUser, function(error, info) {
-    	if (error) {
-    		callback(error);
-    	} else {
-    		callback(null, {
-			    statusCode: 200,
-			    body: "Ok"
-	    	});
-    	}
-    });
-     // from: process.env.MAIL_LOGIN,
-    //     to: process.env.MAIL_TO,
-    //     subject: process.env.SUBJECT,
-    //     text: event.body,
-    //     html: event.html
-}
+  try{
+    await sgMail.send(send_to_admin)
+    await sgMail.send(send_to_user)
+    return {
+      statusCode: 200,
+      body: "Message sent successfully"
+    }
+  } catch(e){
+    return {
+      statusCode: e.code,
+      body: e.message
+    }
+  }
+};
