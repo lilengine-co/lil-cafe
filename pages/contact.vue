@@ -10,8 +10,8 @@
         </div>
       </div>
     </div>
-    <div data-paperform-id="dpyl2koj"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
-  </div>
+    <div data-paperform-id="dpyl2koj"></div>
+    <script src="https://paperform.co/__embed.min.js"></script>  </div>
 </template>
 
 <script>
