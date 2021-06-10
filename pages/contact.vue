@@ -9,9 +9,9 @@
             class="w-6 lg:w-8 h-auto"
           />
           <a
-            href="tel:0460783495"
+            href="tel:0456567248"
             class="text-xl md:text-2xl lg:text-4xl whitespace-nowrap"
-            >0460 783 495</a
+            >0456 567 248</a
           >
         </div>
       </div>
