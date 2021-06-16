@@ -87,7 +87,7 @@ export default {
         "Dear manager" +
         "," +
         "<br>" +
-        "We have new booking. Please check bellow:" +
+        "We have new booking, please check bellow:" +
         "<br>" +
         "First Name: " +
         this.detail.firstName +

@@ -9,7 +9,7 @@ exports.handler =  async (event, context, callback) => {
   const send_to_admin = {
     to: process.env.ADMIN_EMAIL,
     from: process.env.SENDGRID_EMAIL,
-    subject: subject ? subject : 'Booking Table Information',
+    subject: subject ? subject : 'We Have a New Booking',
     html: html,
   };
 
@@ -17,7 +17,7 @@ exports.handler =  async (event, context, callback) => {
   const send_to_user = {
     to: email,
     from: process.env.SENDGRID_EMAIL,
-    subject: subject ? subject : 'Booking Table Information',
+    subject: subject ? subject : 'We Have a New Booking',
     html: htmlUser,
   };
 
