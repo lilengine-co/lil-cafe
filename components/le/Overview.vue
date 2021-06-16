@@ -44,16 +44,18 @@
     <div class="bg-white shadow-lg p-6 border rounded">
       <h2 class="text-md font-bold">Special Requirements:</h2>
       <div class="py-4">
-        <span v-if="detail.heighChair"
+        <span
+          v-if="detail.heighChair"
           class="border w-full border-yellow-700 mr-4 rounded-full px-4 py-2 transition duration-500 ease select-none text-white bg-yellow-700 "
         >
-          Heigh Chair
-        </span> 
-        <span v-if="detail.pram"
+          High Chair
+        </span>
+        <span
+          v-if="detail.pram"
           class="border w-full border-yellow-700  rounded-full px-4 py-2 transition duration-500 ease select-none text-white bg-yellow-700 "
         >
           Pram
-        </span> 
+        </span>
       </div>
       <div class="grid gap-6 py-4">
         <div class="grid border-b">
@@ -81,68 +83,109 @@ export default {
     return {
       name: this.detail.firstName + " " + this.detail.lastName,
       email: this.detail.email,
-      html: "Dear manager" + "," + "<br>" +
-        "We have new booking. Please check bellow:" + "<br>" +
-        "First Name: " + this.detail.firstName + "<br>" +
-        "Last Name: " + this.detail.lastName + "<br>" +
-        "Company: " + this.detail.companyName + "<br>" +
-        "Mobile: " + this.detail.mobile + "<br>" +
-        "Email: " + this.detail.email + "<br>" +
-        "Date: " + this.booking.date.toLocaleDateString("au-AU") + "<br>" +
-        "Time: " + this.booking.time + "<br>" +
-        "How many people: " + this.booking.persion + "<br>" +
-        "Place: " + this.booking.section,
-      htmlUser: "Hi " + this.detail.firstName + "," + "<br>" +
-      "Thanks For your booking, Please check the booking detail bellow:" + "<br>" +
-      "First Name: " + this.detail.firstName + "<br>" +
-      "Last Name: " + this.detail.lastName + "<br>" +
-      "Company: " + this.detail.companyName + "<br>" +
-      "Mobile: " + this.detail.mobile + "<br>" +
-      "Email: " + this.detail.email + "<br>" +
-      "Date: " + this.booking.date.toLocaleDateString("au-AU") + "<br>" +
-      "Time: " + this.booking.time + "<br>" +
-      "How many people: " + this.booking.persion + "<br>" +
-      "Place: " + this.booking.section
+      html:
+        "Dear manager" +
+        "," +
+        "<br>" +
+        "We have new booking. Please check bellow:" +
+        "<br>" +
+        "First Name: " +
+        this.detail.firstName +
+        "<br>" +
+        "Last Name: " +
+        this.detail.lastName +
+        "<br>" +
+        "Company: " +
+        this.detail.companyName +
+        "<br>" +
+        "Mobile: " +
+        this.detail.mobile +
+        "<br>" +
+        "Email: " +
+        this.detail.email +
+        "<br>" +
+        "Date: " +
+        this.booking.date.toLocaleDateString("au-AU") +
+        "<br>" +
+        "Time: " +
+        this.booking.time +
+        "<br>" +
+        "How many people: " +
+        this.booking.persion +
+        "<br>" +
+        "Place: " +
+        this.booking.section,
+      htmlUser:
+        "Hi " +
+        this.detail.firstName +
+        "," +
+        "<br>" +
+        "Thanks For your booking, Please check the booking detail bellow:" +
+        "<br>" +
+        "First Name: " +
+        this.detail.firstName +
+        "<br>" +
+        "Last Name: " +
+        this.detail.lastName +
+        "<br>" +
+        "Company: " +
+        this.detail.companyName +
+        "<br>" +
+        "Mobile: " +
+        this.detail.mobile +
+        "<br>" +
+        "Email: " +
+        this.detail.email +
+        "<br>" +
+        "Date: " +
+        this.booking.date.toLocaleDateString("au-AU") +
+        "<br>" +
+        "Time: " +
+        this.booking.time +
+        "<br>" +
+        "How many people: " +
+        this.booking.persion +
+        "<br>" +
+        "Place: " +
+        this.booking.section
     };
   },
-  props: ['booking', 'detail'],
-  computed: {
-  },
+  props: ["booking", "detail"],
+  computed: {},
   methods: {
-    sendMail () {
+    sendMail() {
       let overview = {
         ...this.booking,
         ...this.detail
       };
       this.$emit("overview-submit", overview);
-      this.sendEmailData()
+      this.sendEmailData();
     },
     async sendEmailData() {
       const data = {
         user: this.name,
         email: this.email,
-        subject: 'Booking Table Information',
+        subject: "Booking Table Information",
         html: this.html,
         htmlUser: this.htmlUser
-      }
+      };
 
       try {
         let a = await fetch("/.netlify/functions/send-contact-email", {
-        method: "POST",
-        body: JSON.stringify(data),
-      } )
+          method: "POST",
+          body: JSON.stringify(data)
+        });
         console.error(a);
       } catch (e) {
-        console.error(e)
-        alert('Error:  Your message could not be sent')
+        console.error(e);
+        alert("Error:  Your message could not be sent");
       }
     },
     backToDetail() {
       this.$emit("overview-submit", false);
     }
-  },
-}
+  }
+};
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
