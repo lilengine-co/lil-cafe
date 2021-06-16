@@ -120,7 +120,7 @@ export default {
         this.detail.firstName +
         "," +
         "<br>" +
-        "Thanks For your booking, Please check the booking detail bellow:" +
+        "Thanks for your booking, please check the booking detail bellow:" +
         "<br>" +
         "First Name: " +
         this.detail.firstName +
@@ -165,7 +165,7 @@ export default {
       const data = {
         user: this.name,
         email: this.email,
-        subject: "Booking Table Information",
+        subject: "We Have a New Booking",
         html: this.html,
         htmlUser: this.htmlUser
       };
