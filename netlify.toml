@@ -11,3 +11,9 @@
   to = "https://www.plumbtennant.com.au/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://lilcafe.co/*"
+  to = "https://www.plumbtennant.com.au/:splat"
+  status = 301
+  force = true
