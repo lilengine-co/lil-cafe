@@ -9,3 +9,7 @@
 [[redirects]]
   from = "https://www.lilcafe.co"
   to = "https://www.plumbtennant.com.au"
+
+[[redirects]]
+  from = "/old-path"
+  to = "/new-path"
