@@ -7,9 +7,5 @@
   functions = "functions"
 
 [[redirects]]
-  from = "http://www.lilcafe.co"
-  to = "https://www.plumbtennant.com.au"
-  
-[[redirects]]
-  from = "http://lilcafe.co"
+  from = "https://www.lilcafe.co"
   to = "https://www.plumbtennant.com.au"
