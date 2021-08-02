@@ -117,7 +117,7 @@ export default {
         this.booking.section +
         "<br>" +
         "Notes: " + 
-        this.booking.notes,
+        this.detail.notes,
       htmlUser:
         "Hi " +
         this.detail.firstName +
@@ -153,7 +153,7 @@ export default {
         this.booking.section +
         "<br>" +
         "Notes: " + 
-        this.booking.notes
+        this.detail.notes
     };
   },
   props: ["booking", "detail"],
