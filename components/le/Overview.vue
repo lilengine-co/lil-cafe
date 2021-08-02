@@ -114,7 +114,10 @@ export default {
         this.booking.persion +
         "<br>" +
         "Place: " +
-        this.booking.section,
+        this.booking.section +
+        "<br>" +
+        "Notes: " + 
+        this.booking.notes,
       htmlUser:
         "Hi " +
         this.detail.firstName +
@@ -147,7 +150,10 @@ export default {
         this.booking.persion +
         "<br>" +
         "Place: " +
-        this.booking.section
+        this.booking.section +
+        "<br>" +
+        "Notes: " + 
+        this.booking.notes
     };
   },
   props: ["booking", "detail"],
