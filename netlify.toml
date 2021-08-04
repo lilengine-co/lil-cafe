@@ -17,3 +17,15 @@
   to = "https://www.plumbtennant.com.au/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://www.plumbontennant.co/*"
+  to = "https://www.plumbtennant.com.au/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://plumbontennant.com.au/*"
+  to = "https://www.plumbtennant.com.au/:splat"
+  status = 301
+  force = true
