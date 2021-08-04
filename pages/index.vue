@@ -39,7 +39,7 @@ export default {
         heading: "Online Ordering",
         link: {
           uri:
-            "https://lil-cafe.square.site/?location=11eb7c15bf5521048122ac1f6bbba82c#5"
+            "https://online-ordering.plumbtennant.com.au"
         }
       },
       {
