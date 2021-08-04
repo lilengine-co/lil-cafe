@@ -19,7 +19,7 @@
   force = true
 
 [[redirects]]
-  from = "https://www.plumbontennant.co.com.au/*"
+  from = "https://www.plumbontennant.com.au/*"
   to = "https://www.plumbtennant.com.au/:splat"
   status = 301
   force = true
