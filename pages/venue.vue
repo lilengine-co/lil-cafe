@@ -25,8 +25,10 @@
           >
           to speak to us about tailoring a package to suit your needs.
         </p>
-        </p>
-        </p>
+        </div>
+        </div>
+        </div>
+        </div>
         <p class="mb-2">
           "Please note we are not accepting dine in bookings during COVID19 lockdown in the ACT". 
         </p>
