@@ -13,10 +13,6 @@
         name="cafe-menu"
         class="inline-flex lg:flex-grow top-navbar ml-auto relative lg:w-auto"
       />
-      <!-- <a href="https://square.site/book/LCAKHXCCVB9CG/plumb-on-tennant-fyshwick-act" target="_blank" class="button p-2 inline-flex items-center" title="Booking a table" style="margin: 0; margin-left: 10px;">
-        <font-awesome-icon icon="calendar-alt" style="font-size: 15px" />
-        <span>Booking</span>
-      </a>-->
       <NuxtLink
         to="/booking"
         class="button p-2 inline-flex items-center"
