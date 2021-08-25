@@ -38,7 +38,7 @@
                   href="https://goo.gl/maps/3TGCTpfcNWB5hFDn8"
                   target="_blank"
                   class="font-light hover:text-yellow-500"
-                  >5 Tennant St, Fyshwick ACT 2609</a
+                  >Unit 1, 5 Tennant St, Fyshwick ACT 2609</a
                 >
               </div>
             </div>
