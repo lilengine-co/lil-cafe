@@ -13,7 +13,7 @@
         name="cafe-menu"
         class="inline-flex lg:flex-grow top-navbar ml-auto relative lg:w-auto"
       />
-      <NuxtLink
+      <NuxtLink>
         to="/booking"
         class="button p-2 inline-flex items-center"
         title="Booking a table"
