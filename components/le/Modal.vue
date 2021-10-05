@@ -9,13 +9,19 @@
           <div class="bg-gray-800 bg-opacity-80 px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
             <div class="sm:flex sm:items-start">
               <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-                <h2 class="text-3xl font-bold leading-6 font-medium text-white" id="modal-title">
+                <h2 class="text-3xl font-bold leading-6 font-medium text-white mb-3" id="modal-title">
                   WE ARE OPEN!
                 </h2>
+
                 <div class="mt-2">
+                  <p class="text-white text-lg mb-1">
+                    Our full menu is avaiable Monday through <span class="font-bold">Friday from 8:00am-2:00pm</span> for takeaway.
+                  <p>
                   <p class="text-white text-lg">
-                    Our full menu is avaiable Monday through <span class="font-bold">Friday from 8:00am-2:00pm</span> for takeaway. <br>
-                    Order online for curbside pickup and we will be opening for dine-ins from <span class="font-bold">Friday 15th of October</span>.
+                    Order online for curb side pick up. We will be opening for dine in customers from Friday <span class="font-bold">15th of October</span>.
+                  </p>
+                  <p class="text-white text-lg mt-2">
+                    Bookings on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a>.
                   </p>
                 </div>
               </div>
