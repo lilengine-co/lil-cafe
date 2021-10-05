@@ -26,7 +26,7 @@
               Order now
             </a>
             <button @click="close()" type="button" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 button button--gray sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
-              Cancel
+              Close
             </button>
           </div>
         </div>
