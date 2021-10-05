@@ -5,6 +5,7 @@
       <!-- <DruxtBreadcrumb /> -->
       <Nuxt />
     </main>
+    <le-modal />
     <druxt-block-region name="footer" :theme="theme"  class="pt-14 lg:pt-28 clear-both"/>
   </div>
 </template>
