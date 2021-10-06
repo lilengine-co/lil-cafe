@@ -5,7 +5,7 @@
       <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
         <div class="fixed inset-0 bg-gray-50 bg-opacity-75 transition-opacity" aria-hidden="true"></div>
         <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
-        <div class="inline-block align-bottom bg-white bg-center bg-cover bg-no-repeat rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" style="background-image: url(/images/plumb.jpeg)">
+        <div class="inline-block align-bottom bg-white bg-center bg-cover bg-no-repeat rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle md:max-w-3xl sm:w-full" style="background-image: url(/images/plumb.jpeg)">
           <div class="bg-gray-800 bg-opacity-80 px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
             <div class="sm:flex sm:items-start">
               <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
@@ -15,10 +15,10 @@
 
                 <div class="mt-2">
                   <p class="text-white text-lg mb-1">
-                    Our full menu is avaiable Monday through <span class="font-bold">Friday from 8:00am-2:00pm</span> for takeaway.
+                    Our full menu is availabe Monday through <span class="font-bold">Friday from 8:00am-2:00pm</span> for takeaway.
                   <p>
                   <p class="text-white text-lg">
-                    Order online for curb side pick up. We will be opening for dine in customers from Friday <span class="font-bold">15th of October</span>.
+                    Order online for curb-side pickup. We will be opening for dine in customers from Friday <span class="font-bold">15th of October</span> we will be open for dine-in service.
                   </p>
                   <p class="text-white text-lg mt-2">
                     Bookings on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a>.
