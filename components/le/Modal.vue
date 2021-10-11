@@ -15,10 +15,10 @@
 
                 <div class="mt-2">
                   <p class="text-white text-lg mb-1">
-                    Our full menu is availabe Monday through <span class="font-bold">Friday from 8:00am-2:00pm</span> for takeaway.
+                    Our full menu is available Monday through <span class="font-bold">Friday from 8:00am-2:00pm</span> for takeaway.
                   <p>
                   <p class="text-white text-lg">
-                    Order online for curb-side pickup. We will be opening for dine in customers from Friday <span class="font-bold">15th of October</span> we will be open for dine-in service.
+                    Order online for curb-side pickup. From Friday <span class="font-bold">15th of October</span> we will be open for dine-in service.
                   </p>
                   <p class="text-white text-lg mt-2">
                     Bookings on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a>.
