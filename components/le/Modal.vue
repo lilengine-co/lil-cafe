@@ -18,7 +18,7 @@
                     Our full menu is available Monday through Friday from <span class="font-bold"> 7:00am-3:00pm </span>, Saturday and Sunday <span class="font-bold"> 8:00am-2:00pm </span>.
                   <p>
                   <p class="text-white text-lg">
-                    From Friday <span class="font-bold">15th of October</span> we will be opening for dine-in service, with <span class="font-bold"> Friday Night Tapas </span> Friday Night Tapas from <span class="font-bold"> 4:00pm-6:00pm </span>.
+                    From Friday <span class="font-bold">15th of October</span> we will be opening for dine-in service, with <span class="font-bold"> Friday Night Tapas </span> from <span class="font-bold"> 4:00pm-6:00pm </span>.
                   </p>
                   <p class="text-white text-lg mt-2">
                     Bookings on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a>.
