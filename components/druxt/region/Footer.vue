@@ -26,6 +26,7 @@
               <div class="grid sm:grid-cols-1 gap-4">
                 <div>
                   <div class="font-light">7am - 3pm Weekdays</div>
+                  <div class="font-light">(3pm - 6pm Tapas Night) Only Friday's</div>
                   <div class="font-light">8am - 2pm Weekends</div>
                 </div>
               </div>
