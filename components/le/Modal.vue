@@ -21,7 +21,7 @@
                     From Friday <span class="font-bold">15th of October</span> we will be opening for dine-in service with <span class="font-bold"> Friday Night Tapas</span> from <span class="font-bold"> 3:00pm-6:00pm</span>.
                   </p>
                   <p class="text-white text-lg mt-2">
-                    Book with us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a> or via <a href="link:https://www.plumbtennant.com.au/booking">https://www.plumbtennant.com.au/booking</a>.
+                    Book with us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a> or via <a class="text-blue-600"  href="https://www.plumbtennant.com.au/booking">https://www.plumbtennant.com.au/booking</a>.
                   </p>
                 </div>
               </div>
