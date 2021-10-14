@@ -25,7 +25,7 @@
       >
         <font-awesome-icon icon="calendar-alt" style="font-size: 15px" />
         <span>Booking</span>
-      </NuxtLink> -->
+      </NuxtLink> 
     </nav>
   </div>
 </template>
