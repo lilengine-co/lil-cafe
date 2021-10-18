@@ -87,7 +87,6 @@ export default {
           id: 'breakfast',
           label: 'Breakfast',
           times: [
-            '7:30AM',
             '8:00AM',
             '8:30AM',
             '9:00AM',
@@ -108,6 +107,7 @@ export default {
             '1:30PM',
             '2:00PM',
             '2:30PM',
+            '3:00PM',
           ]
         }
       ],
