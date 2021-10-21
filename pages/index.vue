@@ -32,7 +32,10 @@ export default {
         heading: "All Day Dining",
         link: {
           uri: "/files/Plumb-menu-weekday.pdf"
-        }
+      },
+      {
+        cover: "/images/Tapas.jpeg",
+        heading: "Friday Tapas Menu",
         link: {
           uri: "/files/Friday-Tapas-Menu.pdf"
         }
