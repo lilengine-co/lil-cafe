@@ -32,6 +32,7 @@ export default {
         heading: "All Day Dining",
         link: {
           uri: "/files/Plumb-menu-weekday.pdf"
+        }
       },
       {
         cover: "/images/Tapas.jpeg",
