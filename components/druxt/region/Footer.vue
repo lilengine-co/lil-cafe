@@ -79,16 +79,18 @@
               </li> -->
             </ul>
           </div>
-          <div>
-              <h2 class="text-2xl mb-4">Telephone</h2>
-              <div>
-                <a
-                  href="tel:0456567248"
-                  class="font-light hover:text-yellow-500"
-                  >0456 567 248</a
-                >
-          </div>
+         </div>
         </div>
+        <div>
+            <h2 class="text-2xl mb-4">Telephone</h2>
+            <div>
+              <a
+                href="tel:0456567248"
+                class="font-light hover:text-yellow-500"
+                >0456 567 248</a
+              >
+        </div>
+       </div>
       </div>
       <div class="my-10 md:my-20 text-center opacity-70 hidden">
         © 2021 LeCafé
