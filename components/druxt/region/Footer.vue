@@ -79,13 +79,15 @@
             </ul>
           </div>
           <div>
-            <h2 class="text-2xl mb-4">Telephone</h2>
             <div>
-              <a
-                href="tel:0456567248"
-                class="font-light hover:text-yellow-500"
-                >0456 567 248</a
-              >
+              <h2 class="text-2xl mb-4">Telephone</h2>
+              <div>
+                <a
+                  href="tel:0456567248"
+                  class="font-light hover:text-yellow-500"
+                  >0456 567 248</a
+                >
+              </div>
             </div>
           </div>
         </div>
