@@ -26,7 +26,6 @@
               <div class="grid sm:grid-cols-1 gap-4">
                 <div>
                   <div class="font-light">7am - 3pm Weekdays</div>
-                  <div class="font-light">(3pm - 6pm Tapas Night) Only Friday's</div>
                   <div class="font-light">8am - 2pm Weekends</div>
                 </div>
               </div>
@@ -79,9 +78,8 @@
               </li> -->
             </ul>
           </div>
-         </div>
-        </div>
-        <div>
+          </div>
+          <div>
             <h2 class="text-2xl mb-4">Telephone</h2>
             <div>
               <a
@@ -89,8 +87,8 @@
                 class="font-light hover:text-yellow-500"
                 >0456 567 248</a
               >
+          </div>
         </div>
-       </div>
       </div>
       <div class="my-10 md:my-20 text-center opacity-70 hidden">
         © 2021 LeCafé
