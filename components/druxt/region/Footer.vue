@@ -78,7 +78,6 @@
               </li> -->
             </ul>
           </div>
-          </div>
           <div>
             <h2 class="text-2xl mb-4">Telephone</h2>
             <div>
@@ -87,6 +86,7 @@
                 class="font-light hover:text-yellow-500"
                 >0456 567 248</a
               >
+            </div>
           </div>
         </div>
       </div>
