@@ -35,13 +35,6 @@ export default {
         }
       },
       {
-        cover: "/images/Tapas.jpeg",
-        heading: "Friday Tapas Menu",
-        link: {
-          uri: "/files/Friday-Tapas-Menu.pdf"
-        }
-      },
-      {
         cover: "/images/le-pickup.jpg",
         heading: "Online Ordering",
         link: {
