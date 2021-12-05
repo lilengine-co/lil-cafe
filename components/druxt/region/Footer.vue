@@ -44,49 +44,55 @@
           </div>
         </div>
         <div class="footer__col">
-          <h2 class="text-2xl  mb-4">Connect with us</h2>
-          <div>
-            <ul class="flex space-x-4">
-              <li>
-                <a
-                  href="https://www.instagram.com/plumbontennant/?hl=en"
-                  target="_blank"
-                  class="hover:text-yellow-700 transition-all duration-500"
-                >
-                  <font-awesome-icon
-                    :icon="['fab', 'instagram']"
-                    style="font-size: 30px"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.facebook.com/fyshwick.cafe"
-                  target="_blank"
-                  class="hover:text-yellow-700 transition-all duration-500"
-                >
-                  <font-awesome-icon
-                    :icon="['fab', 'facebook-f']"
-                    style="font-size: 30px"
-                  />
-                </a>
-              </li>
-              <!-- <li>
-                <a href="#" class="hover:text-yellow-700 transition-all duration-500">
-                  <font-awesome-icon :icon="['fab', 'youtube']" style="font-size: 30px"/>
-                </a>
-              </li> -->
-            </ul>
-          </div>
-          <div>
+          <div class="footer__block"> 
+            <div class="mb-4">
+              <h2 class="text-2xl  mb-4">Connect with us</h2>
+              <div class="grid sm:grid-cols-1 gap-4">
+                <div>
+                  <ul class="flex space-x-4">
+                    <li>
+                      <a
+                        href="https://www.instagram.com/plumbontennant/?hl=en"
+                        target="_blank"
+                        class="hover:text-yellow-700 transition-all duration-500"
+                      >
+                        <font-awesome-icon
+                        :icon="['fab', 'instagram']"
+                        style="font-size: 30px"
+                        />
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/fyshwick.cafe"
+                        target="_blank"
+                        class="hover:text-yellow-700 transition-all duration-500"
+                      >
+                        <font-awesome-icon
+                        :icon="['fab', 'facebook-f']"
+                        style="font-size: 30px"
+                        />
+                      </a>
+                    </li>
+                    <!-- <li>
+                      <a href="#" class="hover:text-yellow-700 transition-all duration-500">
+                      <font-awesome-icon :icon="['fab', 'youtube']" style="font-size: 30px"/>
+                      </a>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
             <div>
-              <h2 class="text-2xl mb-4">Telephone</h2>
               <div>
-                <a
-                  href="tel:0456567248"
-                  class="font-light hover:text-yellow-500"
-                  >0456 567 248</a
-                >
+                <h2 class="text-2xl mb-4">Telephone</h2>
+                <div>
+                  <a
+                    href="tel:0456567248"
+                    class="font-light hover:text-yellow-500"
+                    >0456 567 248</a
+                  >
+                </div>
               </div>
             </div>
           </div>
