@@ -45,7 +45,7 @@
         </div>
         <div class="footer__col">
           <div class="footer__block"> 
-            <div class="mb-4">
+            <div class="mb-8">
               <h2 class="text-2xl  mb-4">Connect with us</h2>
               <div class="grid sm:grid-cols-1 gap-4">
                 <div>
