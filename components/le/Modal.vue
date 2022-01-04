@@ -10,21 +10,18 @@
             <div class="sm:flex sm:items-start">
               <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                 <h2 class="text-3xl font-bold leading-6 font-medium text-white mb-3" id="modal-title">
-                  CHRISTMAS & NEW YEAR OPENING HOURS!
+                  WE ARE OPEN!
                 </h2>
 
                 <div class="mt-2">
                   <p class="text-white text-lg mb-1">
-                    CLOSED - Christmas Day, Boxing Day, Monday 27th (Christmas public holiday), Tuesday 28th (Boxing day public holiday).
+                    Our full menu is available Monday through Friday from <span class="font-bold"> 7:00am-3:00pm</span>, Saturday and Sunday <span class="font-bold"> 8:00am-2:00pm</span>.
                   <p>
                   <p class="text-white text-lg">
-                    OPEN - 29th, 30th, 31st <span class="font-bold"> 8am - 3pm</span>.
-                  <p>
-                  <p class="text-white text-lg">
-                    CLOSED - New Years day, Sunday 2nd, Monday 3rd (New Years Day public holiday).
+                    We are open for takeaway and dine-in service with <span class="font-bold"> Friday Night Tapas</span> from <span class="font-bold"> 3:00pm-6:00pm</span>.
                   </p>
                   <p class="text-white text-lg mt-2">
-                    Book with us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a> or via <a class="text-blue-600"  href="https://www.plumbtennant.com.au/booking">Online Booking</a>.
+                    Book with us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a> or via <a class="text-blue-600"  href="https://www.plumbtennant.com.au/booking">Online Ordering</a>.
                   </p>
                 </div>
               </div>
