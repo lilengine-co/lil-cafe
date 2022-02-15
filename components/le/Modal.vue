@@ -18,7 +18,7 @@
                     Our full menu is available Monday through Friday from <span class="font-bold"> 7:00am-3:00pm</span>, Saturday and Sunday <span class="font-bold"> 8:00am-2:00pm</span>.
                   <p>
                   <p class="text-white text-lg">
-                    We are open for takeaway and dine-in service with <span class="font-bold"> Friday Night Tapas</span> from <span class="font-bold"> 3:00pm-6:00pm</span>.
+                    We are open for takeaway and dine-in service.
                   </p>
                   <p class="text-white text-lg mt-2">
                     Book with us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a> or via <a class="text-blue-600"  href="https://www.plumbtennant.com.au/booking">Online Ordering</a>.
