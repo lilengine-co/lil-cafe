@@ -43,7 +43,7 @@ export default {
         }
       },
       {
-        cover: "/images/le-venue.jpg",
+        cover: "/images/le-updated_venue.jpg",
         heading: "Venue",
         link: {
           uri: "/venue"
