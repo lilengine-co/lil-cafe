@@ -10,7 +10,7 @@
           sandwiches and wraps in our display fridge.
         </p>
         <p class="mb-2">
-          Open 7am-3pm weekdays (3pm-6pm only Friday Tapas Night) and 8am-2pm weekends, join us for brekkie or
+          Open 7am-3pm weekdays and 8am-2pm weekends, join us for brekkie or
           lunch in our fully licensed cafe.
         </p>
         <p class="mb-2">
