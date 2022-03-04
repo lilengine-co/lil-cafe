@@ -28,7 +28,7 @@ export default {
   data: () => ({
     menus: [
       {
-        cover: "/images/cafe-item.jpg",
+        cover: "/images/Dine-in.jpeg",
         heading: "All Day Dining",
         link: {
           uri: "/files/Plumb-menu-weekday.pdf"
