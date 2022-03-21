@@ -39,7 +39,7 @@ export default {
         heading: "Online Ordering",
         link: {
           uri:
-            "https://online-ordering.plumbtennant.com.au"
+            "https://www.onlineorderingplumbtennant.com.au/"
         }
       },
       {
