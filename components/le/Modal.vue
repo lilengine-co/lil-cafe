@@ -20,7 +20,7 @@
                     We are open for takeaway and dine-in service.
                   </p>
                   <p class="text-white text-lg mb-1">
-                    BBQ School will soon be at plumb offering classes. To explore more and book your classes, Contact BBQ School <a href="https://www.bbqschool.com.au/pages/bbq-classes-canberra-1" class="text-yellow-600">here</a>.</p>
+                    BBQ School will soon be at plumb offering classes. To explore more and book your classes, Contact BBQ School <a href="https://www.bbqschool.com.au/pages/bbq-classes-canberra-1" class="text-blue-600 font-bold">here</a>.</p>
                   <p class="text-white text-lg mt-2">
                     Book with us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a> or via <a class="text-blue-600"  href="https://www.plumbtennant.com.au/booking">Online Ordering</a>.
                   </p>
