@@ -43,10 +43,10 @@ export default {
         }
       },
       {
-        cover: "/images/le-updated_venue.jpg",
-        heading: "Venue",
+        cover: "/images/BBQ.jpeg",
+        heading: "BBQ School will soon be at Plumb",
         link: {
-          uri: "/venue"
+          uri: "https://www.bbqschool.com.au/pages/bbq-classes-canberra-1"
         }
       }
     ]
