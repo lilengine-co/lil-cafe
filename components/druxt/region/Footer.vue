@@ -25,8 +25,7 @@
               <h2 class="f-block__title text-2xl mb-2">Café Opening Hours</h2>
               <div class="grid sm:grid-cols-1 gap-4">
                 <div>
-                  <div class="font-light">7am - 3pm Weekdays</div>
-                  <div class="font-light">8am - 2pm Weekends</div>
+                  <div class="font-light">7am - 3pm Weekdays, 8am - 2pm Weekends</div>
                   <div class="font-light">Closed for Good Friday (15th) - Easter Holidays (16th,17th,18th April 2022) and 25th April 2022 ANZAC Day</div>
                 </div>
               </div>
