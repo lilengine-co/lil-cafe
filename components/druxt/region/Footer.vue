@@ -27,6 +27,8 @@
                 <div>
                   <div class="font-light">7am - 3pm Weekdays</div>
                   <div class="font-light">8am - 2pm Weekends</div>
+                  <div class="font-light">Closed for Good Friday(15th April) - Easter (16th, 17th, 18th April 2022)</div>
+                  <div class="font-light">And for ANZAC day (25th April 2022)</div>
                 </div>
               </div>
             </div>
