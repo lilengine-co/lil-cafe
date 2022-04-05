@@ -99,7 +99,7 @@
         </div>
       </div>
       <div class="my-10 md:my-20 text-center opacity-70 hidden">
-        © 2021 LeCafé
+        © 2022 LeCafé
       </div>
     </div>
   </div>
