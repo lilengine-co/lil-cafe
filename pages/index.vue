@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto">
     <div class="text-container"> 
-     <p>Plumb is serving fresh, wholesome, tasty food for breakfast and lunch 7 days. We are a licensed cafe that offers you a bunch of gluten-free and vegan friendly options to serve you amazing food. Explore our full menu or order online to enjoy delicious treats. Come and join us for a flavourful ride</p>
+     <p><b>Plumb is serving fresh, wholesome, and tasty food for breakfast and lunch, 7 days a week. We are a fully licensed cafe, and our menu offers a variety of gluten-free and vegan friendly options. Explore our full menu below, and book a table for dine in, or order online for pick up at the cafe. Come and join us for a flavourful ride!</b></p>
     </div>
     <div class="block-space">
       <ul
