@@ -1,6 +1,7 @@
 <template>
   <div class="footer">
     <div class="container mx-auto">
+    <p><b>Please book by calling us on <a href="tel:0456567248" class="font-light hover:text-yellow-500">0456 567 248</a>. Walk-ins welcome</b></p><br>
       <div
         class="footer__grid grid md:grid-cols-3 gap-10 md:gap-20 pb-6 md:pb-16"
       >
