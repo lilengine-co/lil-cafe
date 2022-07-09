@@ -39,7 +39,7 @@ export default {
         cover: "/images/Dining.jpeg",
         heading: "All Day Dining",
         link: {
-          uri: "/files/Plumb-menu-weekday.pdf"
+          uri: "/files/Winter-menu-plumb.pdf"
         }
       },
       {
