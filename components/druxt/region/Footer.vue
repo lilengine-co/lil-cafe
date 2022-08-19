@@ -102,6 +102,7 @@
       <div class="my-10 md:my-20 text-center opacity-70 hidden">
         © 2022 LeCafé
       </div>
+      <b>We respectfully acknowledge the Traditional Custodians of the land on which we work and learn, paying respect to the First Nations Peoples and their Elders, past and present.</b>
     </div>
   </div>
 </template>
