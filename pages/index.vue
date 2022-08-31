@@ -51,7 +51,7 @@ export default {
         }
       },
       {
-        cover: "/images/food-gallery.jpg",
+        cover: "/images/food-gallery.jpeg",
         heading: "Plumb's Food Gallery",
         link: {
           uri:
