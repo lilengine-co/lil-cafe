@@ -51,6 +51,14 @@ export default {
         }
       },
       {
+        cover: "/images/food-gallery.jpg",
+        heading: "Plumb's Food Gallery",
+        link: {
+          uri:
+            "https://www.onlineorderingplumbtennant.com.au/gallery"
+        }
+      },
+      {
         cover: "/images/BBQ.jpeg",
         heading: "BBQ School will soon be at Plumb",
         link: {
