@@ -5,7 +5,7 @@
       <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
         <div class="fixed inset-0 bg-gray-50 bg-opacity-75 transition-opacity" aria-hidden="true"></div>
         <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
-        <div class="inline-block align-bottom bg-white bg-center bg-cover bg-no-repeat rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle md:max-w-3xl sm:w-full" style="background-image: url(/images/plumb.jpeg)">
+        <div class="inline-block align-bottom bg-white bg-center bg-cover bg-no-repeat rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle md:max-w-3xl sm:w-full" style="background-image: url(/images/popup-image.jpeg)">
           <div class="bg-gray-800 bg-opacity-80 px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
             <div class="sm:flex sm:items-start">
               <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
@@ -14,13 +14,13 @@
                 </h2>
                 <div class="mt-2">
                   <p class="text-white text-lg mb-1">
-                    Our full menu is available Monday through Friday from <span class="font-bold"> 7:00am-3:00pm</span>, Saturday and Sunday <span class="font-bold"> 8:00am-2:00pm</span>.
+                    At Plumb, we are very passionate about the food and impress our customers with the love we serve. We’ve got you covered for the day ahead!
                   </p>
                   <p class="text-white text-lg">
                     We are open for takeaway and dine-in service.
                   </p>
                   <p class="text-white text-lg mb-1">
-                    Plumb is always dedicated to serve the best coffee and food with healthy options. Visit our <a href="https://www.instagram.com/plumbontennant/?hl=en" class="text-blue-600 font-bold">Instagram</a> for more info about new additions.</p>
+                    Our full menu is available Monday through Friday from <span data-v-6831b08e="" class="font-bold"> 7:00am-3:00pm</span>, Saturday and Sunday <span data-v-6831b08e="" class="font-bold"> 8:00am-2:00pm</span>. Visit our <a href="https://www.instagram.com/plumbontennant/?hl=en" class="text-blue-600 font-bold">Instagram</a> for more info about new additions.</p>
                   <p class="text-white text-lg mt-2">
                     Book with us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a> or via <a class="text-blue-600"  href="https://www.plumbtennant.com.au/booking">Online Ordering</a>.
                   </p>
