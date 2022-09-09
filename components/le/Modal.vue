@@ -14,15 +14,12 @@
                 </h2>
                 <div class="mt-2">
                   <p class="text-white text-lg mb-1">
-                    At Plumb, we are very passionate about the food and impress our customers with the love we serve. We’ve got you covered for the day ahead!
+                    At Plumb, we are very passionate about the food. We like to impress our customers with the love that we serve in every bite. We’ve got you covered for the day ahead!
                   </p>
                   <p class="text-white text-lg">
-                    We are open for takeaway and dine-in service.
-                  </p>
-                  <p class="text-white text-lg mb-1">
-                    Our full menu is available Monday through Friday from <span data-v-6831b08e="" class="font-bold"> 7:00am-3:00pm</span>, Saturday and Sunday <span data-v-6831b08e="" class="font-bold"> 8:00am-2:00pm</span>. Visit our <a href="https://www.instagram.com/plumbontennant/?hl=en" class="text-blue-600 font-bold">Instagram</a> for more info about new additions.</p>
+                    We are open for takeaway and dine-in service from Monday through Friday from <span data-v-6831b08e="" class="font-bold"> 7:00am-4:00pm</span>, Saturday and Sunday <span data-v-6831b08e="" class="font-bold"> 8:00am-2:00pm</span>.</p>
                   <p class="text-white text-lg mt-2">
-                    Book with us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a> or via <a class="text-blue-600"  href="https://www.plumbtennant.com.au/booking">Online Ordering</a>.
+                    Book <a class="text-blue-600"  href="https://www.plumbtennant.com.au/booking">Online</a> or call us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a>.
                   </p>
                 </div>
               </div>
