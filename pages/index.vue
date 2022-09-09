@@ -57,7 +57,7 @@ export default {
         }
       },
       {
-        cover: "/images/Square.jpeg",
+        cover: "/images/Square1.jpeg",
         heading: "Square Setup for Business",
         link: {
           uri:
