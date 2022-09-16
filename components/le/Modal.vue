@@ -21,6 +21,8 @@
                   <p class="text-white text-lg mt-2">
                     Book <a class="text-blue-600"  href="https://www.plumbtennant.com.au/booking">Online</a> or call us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a>.
                   </p>
+                  <p data-v-24c72746="" class="text-white text-lg mt-2">
+                    BBQ School will commence classes at Plumb from 8th october. Book your classes <a data-v-24c72746="" href="https://www.bbqschool.com.au/pages/bbq-classes-canberra-1" class="text-yellow-600 font-bold">here</a>.
                 </div>
               </div>
             </div>
