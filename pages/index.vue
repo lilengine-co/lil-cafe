@@ -65,6 +65,14 @@ export default {
         }
       },
       {
+        cover: "/images/retail-store.jpeg",
+        heading: "Our Retail Store",
+        link: {
+          uri:
+            "https://www.onlineorderingplumbtennant.com.au/retail-store"
+        }
+      },
+      {
         cover: "/images/BBQ.jpeg",
         heading: "BBQ classes commencing from 8th October",
         link: {
