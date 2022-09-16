@@ -66,7 +66,7 @@ export default {
       },
       {
         cover: "/images/BBQ.jpeg",
-        heading: "BBQ School will soon be at Plumb",
+        heading: "BBQ classes commencing from 8th October",
         link: {
           uri: "https://www.bbqschool.com.au/pages/bbq-classes-canberra-1"
         }
