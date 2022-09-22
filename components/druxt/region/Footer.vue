@@ -28,7 +28,6 @@
                 <div>
                   <div class="font-light">7am - 4pm Weekdays</div>
                   <div class="font-light">8am - 2pm Weekends</div>
-                  <div class="font-light">Closed on Thursday 22 September 2022</div>
                 </div>
               </div>
             </div>
