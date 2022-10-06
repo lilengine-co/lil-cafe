@@ -74,7 +74,7 @@ export default {
       },
       {
         cover: "/images/BBQ.jpeg",
-        heading: "BBQ classes commencing from 8th October",
+        heading: "BBQ classes commencing from 22nd October",
         link: {
           uri: "https://www.bbqschool.com.au/pages/bbq-classes-canberra-1"
         }
