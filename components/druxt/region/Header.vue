@@ -17,6 +17,7 @@
         <font-awesome-icon icon="calendar-alt" style="font-size: 15px" />
         <span>Booking</span>
       </a>-->
+      
       <!--<NuxtLink
         to="/booking"
         class="button p-2 inline-flex items-center"
