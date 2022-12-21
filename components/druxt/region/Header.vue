@@ -17,7 +17,7 @@
         <font-awesome-icon icon="calendar-alt" style="font-size: 15px" />
         <span>Booking</span>
       </a>-->
-      <NuxtLink
+      <!--<NuxtLink
         to="/booking"
         class="button p-2 inline-flex items-center"
         title="Booking a table"
@@ -25,7 +25,7 @@
       >
         <font-awesome-icon icon="calendar-alt" style="font-size: 15px" />
         <span>Booking</span>
-      </NuxtLink> 
+      </NuxtLink>--> 
     </nav>
   </div>
 </template>
