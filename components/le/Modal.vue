@@ -18,13 +18,13 @@
                   </p>
                   <br> <span data-v-a2f93f0a="" data-v-6831b08e="" class="font-bold"> We wish you Happy Holidays!</span>
                   <p class="text-white text-lg">
-                    We are closed for Christmas and New Year holidays from <span data-v-6831b08e="" class="font-bold"> 25th Dec to 2nd Jan</span>. We will be back on <span data-v-6831b08e="" class="font-bold"> 3rd Jan 2023</span>.
+                    We are closed for Christmas and New Year holidays from <span data-v-6831b08e="" class="font-bold"> 24th Dec to 2nd Jan</span>. We will be back on <span data-v-6831b08e="" class="font-bold"> 3rd Jan 2023</span>.
                    </p>
                   <p class="text-white text-lg mt-2">
                     Book <a class="text-blue-600"  href="https://www.plumbtennant.com.au/booking">Online</a> or call us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a>.
                   </p>
                   <p data-v-24c72746="" class="text-white text-lg mt-2">
-                    BBQ School will commence classes at Plumb from 22nd October. Book your spots <a data-v-24c72746="" href="https://www.bbqschool.com.au/pages/bbq-classes-canberra-1" class="text-yellow-600 font-bold">here</a>.
+                    To book your BBQ School classes, click <a data-v-24c72746="" href="https://www.bbqschool.com.au/pages/bbq-classes-canberra-1" class="text-yellow-600 font-bold">here</a>.
                 </div>
               </div>
             </div>
