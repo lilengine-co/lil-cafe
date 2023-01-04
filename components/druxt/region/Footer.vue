@@ -53,7 +53,7 @@
                   <ul class="flex space-x-4">
                     <li>
                       <a
-                        href="https://www.instagram.com/plumbontennant/?hl=en"
+                        href="https://www.instagram.com/plumbcafeandeatery/?hl=en"
                         target="_blank"
                         class="hover:text-yellow-700 transition-all duration-500"
                       >
