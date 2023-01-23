@@ -25,6 +25,7 @@
                   </p>
                   <p data-v-24c72746="" class="text-white text-lg mt-2">
                     To book your BBQ School classes, click <a data-v-24c72746="" href="https://www.bbqschool.com.au/pages/bbq-classes-canberra-1" class="text-yellow-600 font-bold">here</a>.
+                  </p>
                 </div>
               </div>
             </div>
