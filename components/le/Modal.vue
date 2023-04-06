@@ -17,7 +17,7 @@
                     At Plumb, we are very passionate about the food. We like to impress our customers with the love that we serve in every bite. We’ve got you covered for the day ahead!
                   </p>
                   <p class="text-white text-lg">
-                    We are open for takeaway and dine-in service for all Easter long weekened from Friday through Monday from <span data-v-6831b08e="" class="font-bold"> 8:00am - 2:00pm</span>.
+                    We are open for takeaway and dine-in service for all Easter long weekend from Friday through Monday from <span data-v-6831b08e="" class="font-bold"> 8:00am - 2:00pm</span>.
                    </p>
                   <p class="text-white text-lg mt-2">
                     Visit us this Easter weekend and experience our warm and welcoming atmosphere. See you soon at Plumb Cafe!"
