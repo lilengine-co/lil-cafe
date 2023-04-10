@@ -86,7 +86,7 @@
             </div>
             <div>
               <div>
-                <h2 class="text-2xl mb-4">Telephone</h2>
+                <h2 class="text-2xl mb-4">Telephone & Email</h2>
                 <div>
                   <a
                     href="tel:0456567248"
@@ -94,13 +94,20 @@
                     >0456 567 248</a
                   >
                 </div>
+                <div>
+                  <a 
+                    href="mailto:fyshwick@lilcafe.co" 
+                    class="font-light hover:text-yellow-500"
+                    >fyshwick@lilcafe.co</a
+                    >
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="my-10 md:my-20 text-center opacity-70 hidden">
-        © 2022 LeCafé
+        © 2023 LeCafé
       </div>
       <b>We respectfully acknowledge the Traditional Custodians of the land on which we work and learn, paying respect to the First Nations Peoples and their Elders, past and present.</b>
     </div>
