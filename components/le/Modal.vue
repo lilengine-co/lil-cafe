@@ -10,17 +10,17 @@
             <div class="sm:flex sm:items-start">
               <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                 <h2 class="text-3xl font-bold leading-6 font-medium text-white mb-3" id="modal-title">
-                    WE ARE OPEN!
+                    WE ARE OPEN ON MOTHER'S DAY!
                 </h2>
                 <div class="mt-2">
                   <p class="text-white text-lg mb-1">
-                    At Plumb, we are very passionate about the food. We like to impress our customers with the love that we serve in every bite. We’ve got you covered for the day ahead!
+                    Celebrate Mum at Plumb! Book now to secure your table.
                   </p>
                   <p class="text-white text-lg">
-                    We are open for takeaway and dine-in service from Monday through Friday from <span data-v-6831b08e="" class="font-bold"> 7:00am-4:00pm</span>, Saturday and Sunday <span data-v-6831b08e="" class="font-bold"> 8:00am-2:00pm</span>.
+                    We'll be open for breakfast and lunch on Mother's day, Sunday May 14th. Serving delicious treats for Mum and the whole family.
                    </p>
                   <p class="text-white text-lg mt-2">
-                     Book <a class="text-blue-600"  href="https://www.plumbtennant.com.au/booking">Online</a> or call us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a>.
+                    Book your table online, <a class="text-blue-600"  href="https://www.plumbtennant.com.au/contact">Online</a> in-store or call us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a>.
                   </p>
                   <p data-v-24c72746="" class="text-white text-lg mt-2">
                     To book your BBQ School classes, click <a data-v-24c72746="" href="https://www.bbqschool.com.au/pages/bbq-classes-canberra-1" class="text-yellow-600 font-bold">here</a>.
