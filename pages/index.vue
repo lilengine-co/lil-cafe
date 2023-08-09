@@ -57,11 +57,11 @@ export default {
         }
       },
       {
-        cover: "/images/Square1.jpeg",
-        heading: "Square Setup for Business",
+        cover: "/images/catering.png",
+        heading: "Catering",
         link: {
           uri:
-            "https://www.onlineorderingplumbtennant.com.au/square-service"
+            "/files/Plumb_catering_2023.pdf"
         }
       },
       {
