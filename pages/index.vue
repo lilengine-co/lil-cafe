@@ -39,6 +39,27 @@ export default {
         }
       },
       {
+        cover: "/images/Takeaway.jpeg",
+        heading: "Takeaway Menu",
+        link: {
+          uri: "/files/Plumb-Takeaway-Menu.pdf"
+        }
+      },
+       {
+        cover: "/images/Grab&go.jpg",
+        heading: "Grab & Go Boxes",
+        link: {
+          uri: "/files/Grab&Go.pdf"
+        }
+      },
+      {
+        cover: "/images/Roll.jpeg",
+        heading: "Bacon & Egg with Coffee",
+        link: {
+          uri: "/files/B&E-ROLL.pdf"
+        }
+      },
+      {
         cover: "/images/le-pickup.jpg",
         heading: "Online Ordering",
         link: {
@@ -47,19 +68,19 @@ export default {
         }
       },
       {
-        cover: "/images/food-gallery.jpeg",
-        heading: "Plumb's Food Gallery",
-        link: {
-          uri:
-            "https://www.onlineorderingplumbtennant.com.au/gallery"
-        }
-      },
-      {
         cover: "/images/catering.png",
         heading: "Catering",
         link: {
           uri:
             "/files/Plumb_catering_2023.pdf"
+        }
+      },
+      {
+        cover: "/images/food-gallery.jpeg",
+        heading: "Plumb's Food Gallery",
+        link: {
+          uri:
+            "https://www.onlineorderingplumbtennant.com.au/gallery"
         }
       },
       {
