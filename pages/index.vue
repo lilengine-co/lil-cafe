@@ -54,7 +54,7 @@ export default {
       },
       {
         cover: "/images/Roll.jpeg",
-        heading: "Bacon & Egg with Coffee",
+        heading: "Bacon & Egg Roll with Coffee",
         link: {
           uri: "/files/B&E-ROLL.pdf"
         }
