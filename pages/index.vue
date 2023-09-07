@@ -39,15 +39,15 @@ export default {
         }
       },
       {
-        cover: "/images/Takeaway.jpeg",
+        cover: "/images/Grab&go.jpg",
         heading: "Takeaway Menu",
         link: {
           uri: "/files/Plumb-Takeaway-Menu.pdf"
         }
       },
        {
-        cover: "/images/Grab&go.jpg",
-        heading: "Grab & Go Boxes",
+        cover: "/images/Grab.jpg",
+        heading: "Grab & Go",
         link: {
           uri: "/files/Grab&Go.pdf"
         }
