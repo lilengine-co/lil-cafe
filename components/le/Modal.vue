@@ -10,14 +10,14 @@
             <div class="sm:flex sm:items-start">
               <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                 <h2 class="text-3xl font-bold leading-6 font-medium text-white mb-3" id="modal-title">
-                    WE ARE OPEN!
+                    CAFE CHRISTMAS CLOSURE!
                 </h2>
                 <div class="mt-2">
                   <p class="text-white text-lg mb-1">
-                    At Plumb, we are very passionate about the food. We like to impress our customers with the love that we serve in every bite. We’ve got you covered for the day ahead!
+                    Plumb will be closed for Christmas and New Year from December 25th - January 1st.
                   </p>
                   <p class="text-white text-lg">
-                    We are open for takeaway and dine-in service from Monday through Friday from <span data-v-6831b08e="" class="font-bold"> 7:00am-3:00pm</span>, Saturday and Sunday <span data-v-6831b08e="" class="font-bold"> 8:00am-2:00pm</span>.
+                    We will reopen after our break on January 2nd - January 7th from 8:30am - 2:00pm and resume regular opening hours afterwards.
                    </p>
                   <p class="text-white text-lg mt-2">
                      Book <a class="text-blue-600"  href="https://www.plumbtennant.com.au/booking">Online</a> or call us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a>.
