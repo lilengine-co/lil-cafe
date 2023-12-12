@@ -17,7 +17,7 @@
                     Plumb will be closed for Christmas and New Year from December 25th - January 1st.
                   </p>
                   <p class="text-white text-lg">
-                    We will reopen after our break on January 2nd - January 7th from 8:30am - 2:00pm and resume regular opening hours afterwards.
+                    We will reopen after our break on January 2nd - January 14th from 8:30am - 2:00pm and resume regular opening hours afterwards.
                    </p>
                   <p class="text-white text-lg mt-2">
                      Book <a class="text-blue-600"  href="https://www.plumbtennant.com.au/booking">Online</a> or call us on <a class="text-yellow-600 font-bold"  href="tel:0456567248">0456 567 248</a>.
