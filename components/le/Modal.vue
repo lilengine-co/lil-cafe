@@ -10,11 +10,11 @@
             <div class="sm:flex sm:items-start">
               <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                 <h2 class="text-3xl font-bold leading-6 font-medium text-white mb-3" id="modal-title">
-                    CLOSED ON MONDAY !
+                    WE ARE OPEN!
                 </h2>
                 <div class="mt-2">
                   <p class="text-white text-lg mb-1">
-                    We are so sorry to inform you all that we are closed for some urgent Kitchen Maintenance tomorrow Monday 5 Feb 2024. We will see you on Tuesday 6 Feb 2024. We are sorry for any inconvenience this may cause you!
+                    At Plumb, we are very passionate about the food. We like to impress our customers with the love that we serve in every bite. We’ve got you covered for the day ahead!
                   </p>
                   <p class="text-white text-lg">
                     We are open for takeaway and dine-in service from Monday through Friday from <span data-v-6831b08e="" class="font-bold"> 7:00am-3:00pm</span>, Saturday and Sunday <span data-v-6831b08e="" class="font-bold"> 8:00am-2:00pm</span>.
