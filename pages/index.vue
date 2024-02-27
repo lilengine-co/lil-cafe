@@ -44,7 +44,7 @@ export default {
         cover: "/images/Grab&go.jpg",
         heading: "Takeaway Menu",
         link: {
-          uri: "/files/Plumb-Takeaway-Menu.pdf"
+          uri: "/files/Menu2024.pdf"
         }
       },
        {
