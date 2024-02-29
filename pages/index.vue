@@ -74,7 +74,7 @@ export default {
         heading: "Catering",
         link: {
           uri:
-            "/files/Plumb Catering 2024.pdf"
+            "/files/Plumb_Catering_2024.pdf"
         }
       },
       {
