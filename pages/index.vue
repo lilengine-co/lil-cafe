@@ -62,11 +62,35 @@ export default {
         }
       },
       {
+        cover: "/images/le-pickup.jpg",
+        heading: "Online Ordering",
+        link: {
+          uri:
+            "https://www.onlineorderingplumbtennant.com.au/"
+        }
+      },
+      {
         cover: "/images/catering.png",
         heading: "Catering",
         link: {
           uri:
             "/files/Plumb_Catering_2024.pdf"
+        }
+      },
+      {
+        cover: "/images/food-gallery.jpeg",
+        heading: "Plumb's Food Gallery",
+        link: {
+          uri:
+            "https://www.onlineorderingplumbtennant.com.au/gallery"
+        }
+      },
+      {
+        cover: "/images/retail-store.jpeg",
+        heading: "Our Retail Store",
+        link: {
+          uri:
+            "https://www.onlineorderingplumbtennant.com.au/retail-store"
         }
       },
       {
